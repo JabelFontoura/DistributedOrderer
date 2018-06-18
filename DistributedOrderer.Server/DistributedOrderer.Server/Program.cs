@@ -6,7 +6,7 @@ namespace DistributedOrderer.Server
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            new Server().StartListening();
         }
     }
 }
